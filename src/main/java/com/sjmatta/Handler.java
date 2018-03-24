@@ -3,6 +3,7 @@ package com.sjmatta;
 import java.util.Collections;
 import java.util.Map;
 
+import com.sjmatta.dto.ApiGatewayResponse;
 import org.apache.log4j.Logger;
 
 import com.amazonaws.services.lambda.runtime.Context;
