@@ -1,4 +1,4 @@
-package com.serverless;
+package com.sjmatta;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
@@ -39,6 +39,16 @@ public class ApiGatewayResponse {
 	// API Gateway expects the property to be called "isBase64Encoded" => isIs
 	public boolean isIsBase64Encoded() {
 		return isBase64Encoded;
+	}
+
+	@Override
+	public String toString() {
+		return "ApiGatewayResponse{" +
+				"statusCode=" + statusCode +
+				", body='" + body + '\'' +
+				", headers=" + headers +
+				", isBase64Encoded=" + isBase64Encoded +
+				'}';
 	}
 
 	public static Builder builder() {
