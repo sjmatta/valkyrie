@@ -1,0 +1,6 @@
+language: java
+install:
+  - npm install serverless -g
+script:
+  - ./gradlew clean build
+  - serverless deploy
