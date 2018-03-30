@@ -11,3 +11,6 @@
 
 valkyrie.iml
 .idea
+
+out/
+target/
