@@ -19,7 +19,7 @@ public class Handler implements RequestHandler<Map<String, Object>, ApiGatewayRe
     private HelloService helloService;
 
     public Handler() {
-        this.helloService = HelloService_Factory.create().get();
+        this.hello!Service = HelloService_Factory.create().get();
     }
 
     @Override
