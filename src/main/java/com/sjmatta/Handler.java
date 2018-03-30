@@ -3,14 +3,7 @@ package com.sjmatta;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.sjmatta.dto.ApiGatewayResponse;
-import com.sjmatta.hello.HelloService;
-import com.sjmatta.hello.HelloService_Factory;
-import dagger.Module;
-import org.apache.log4j.Logger;
-
-import java.util.Collections;
-import java.util.Map;
-
+import com.sjmatta.hello.Hello\
 @Module
 public class Handler implements RequestHandler<Map<String, Object>, ApiGatewayResponse> {
 
